@@ -1,0 +1,19 @@
+{
+  "name": "passportjs",
+  "version": "1.0.0",
+  "description": "login signUp with passportJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
